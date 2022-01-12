@@ -11,7 +11,7 @@ import Foundation
 class NewsFeedViewModel: ObservableObject {
     @Published var state: LoadingState<Articles> = .loading
     
-    private var articles: Articles = Articles(status: "", data: [])
+    private var articles: Articles = Articles(data: [])
     private var cancellables = Set<AnyCancellable>()
     private let newsRepository: NewsWebRepositoryProtocol
     

@@ -64,7 +64,6 @@
 		188247412788EF60004AF9AF /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
 		188247462788FAE5004AF9AF /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		189B2AAE2787CAB3001E85F4 /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
-		189B2AB02787CC61001E85F4 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		18C1798B2787CE9600478451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Newsi/Supporting Files/Info.plist"; sourceTree = SOURCE_ROOT; };
 		18C1798D2787E9A000478451 /* Endpoint+News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Endpoint+News.swift"; sourceTree = "<group>"; };
 		18C179902787EE1100478451 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
@@ -72,6 +71,7 @@
 		18CFF4732787A709008935A1 /* NewsWebRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsWebRepository.swift; sourceTree = "<group>"; };
 		18CFF4772787AB82008935A1 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		18CFF47B2787AE31008935A1 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		18F51D0B278CCC010093AA79 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,7 +225,7 @@
 				18C1798B2787CE9600478451 /* Info.plist */,
 				18534E7627878A1C00CFFE1E /* Preview Content */,
 				18534E7427878A1C00CFFE1E /* Assets.xcassets */,
-				189B2AB02787CC61001E85F4 /* Config.xcconfig */,
+				18F51D0B278CCC010093AA79 /* Config.xcconfig */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -453,7 +453,7 @@
 /* Begin XCBuildConfiguration section */
 		18534E8F27878A1C00CFFE1E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 189B2AB02787CC61001E85F4 /* Config.xcconfig */;
+			baseConfigurationReference = 18F51D0B278CCC010093AA79 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -515,7 +515,7 @@
 		};
 		18534E9027878A1C00CFFE1E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 189B2AB02787CC61001E85F4 /* Config.xcconfig */;
+			baseConfigurationReference = 18F51D0B278CCC010093AA79 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;

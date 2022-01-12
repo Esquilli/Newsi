@@ -8,11 +8,9 @@
 import Foundation
 
 struct Articles: Codable {
-    let status: String
     let data: [Article]
     
     enum CodingKeys: String, CodingKey {
-        case status
         case data = "articles"
     }
 }

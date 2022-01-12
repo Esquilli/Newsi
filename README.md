@@ -14,18 +14,26 @@
 
 ---
 
-# Key Features
+## Key Features
 - Vanilla SwiftUI + Combine + MVVM
 - No external dependencies
-- Scalable
 
-# Screenshot
+## Screenshot
 ![App Screenshot](./Assets/Mockup.png)
 
-# To-Do
+## Getting Started
+
+### Prerequisites
+1. Xcode
+
+### Installation
+1. Clone or download the project to your local machine
+2. Run the simulator
+
+## To-Do
 - [ ] Implement image cache since AsyncImage doesn't have one (sadly!)
 - [ ] Implement test cases
 - [ ] More dependency injection coverage
 
-# Licence
+## Licence
 Newsi is released under the MIT license. See [LICENSE](./LICENSE) for details.
